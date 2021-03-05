@@ -14,7 +14,7 @@
         "ADD_TO_BASKET_ACTION_PRIMARY" => array(0=>"ADD",),
         "AJAX_MODE" => "Y",
         "BACKGROUND_IMAGE" => "-",
-        "BASKET_URL" => "//www-taiyan.ru.umgm.ru/personal/cart/",
+        "BASKET_URL" => "//taiyan.ru/personal/cart/",
         "BRAND_USE" => "N",
         "BROWSER_TITLE" => "-",
         "CACHE_GROUPS" => "Y",

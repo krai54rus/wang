@@ -20,7 +20,7 @@ if(CModule::IncludeModule("catalog") && CModule::IncludeModule("sale")){
    }
    foreach($arBasket as $arProduct){
       $arFields = array(
-         "LID" => SITE_ID, // вот здесь и происходит финт ушами
+         "LID" => "RT", // товары из корзины переходят в корзину розницы таяна taiyan.ru
       );
       CSaleBasket::Update($arProduct["ID"], $arFields);
    }   

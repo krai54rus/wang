@@ -5,6 +5,12 @@ use Bitrix\Main\Page\Asset;
 <html>
 <head>
 <?$APPLICATION->ShowHead();?>
+<?
+if (CUser::GetID() != 1) {
+    echo "Сайт в разработке";
+    die;
+}
+?>
 <meta charset="utf-8"/>
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +44,7 @@ Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/script_quick.js');
         "",
         array(
             "HIDE_ON_BASKET_PAGES" => "N",
-            "PATH_TO_BASKET" => "//www-taiyan.ru.umgm.ru/personal/cart/",
+            "PATH_TO_BASKET" => "//taiyan.ru/personal/cart/",
             "PATH_TO_ORDER" => SITE_DIR."personal/order/make/",
             "PATH_TO_PERSONAL" => SITE_DIR."personal/",
             "PATH_TO_PROFILE" => SITE_DIR."personal/",

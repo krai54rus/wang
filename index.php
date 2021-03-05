@@ -157,7 +157,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');?>
 		"ADD_PICT_PROP" => "-",
 		"ADD_PROPERTIES_TO_BASKET" => "Y",
 		"ADD_TO_BASKET_ACTION" => "ADD",
-		"BASKET_URL" => "//www-taiyan.ru.umgm.ru/personal/cart/",
+		"BASKET_URL" => "//taiyan.ru/personal/cart/",
 		"CACHE_FILTER" => "N",
 		"CACHE_GROUPS" => "Y",
 		"CACHE_TIME" => "36000000",
@@ -296,6 +296,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');?>
 		"SET_STATUS_404" => "Y",
 		"SET_TITLE" => "N",
 		"SHOW_404" => "Y",
+        "FILTER_NAME" => "arrFilter",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
@@ -329,7 +330,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');?>
                     8 800 999 88 99</a>
             </div>
             <div class="offset-lg-5 col-lg-3">
-                <a class="politic" target="_blank" href="//www-taiyan.ru.umgm.ru/about/">Пользовательское соглашение</a>
+                <a class="politic" target="_blank" href="//taiyan.ru/about/">Пользовательское соглашение</a>
             </div>
         </div>
     </div>
