@@ -590,6 +590,9 @@ $containerName = 'catalog-top-container';
 	$signedParams = $signer->sign(base64_encode(serialize($arResult['ORIGINAL_PARAMETERS'])), 'catalog.top');
 	?>
 </div>
+<script type="text/javascript">
+   var basketJSParams = <?=CUtil::PhpToJSObject($arBasketJSParams);?>
+</script>
 <script>
 	BX.message({
 		RELATIVE_QUANTITY_MANY: '<?=CUtil::JSEscape($arParams['MESS_RELATIVE_QUANTITY_MANY'])?>',
